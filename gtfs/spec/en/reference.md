@@ -276,6 +276,8 @@ Primary key (`trip_id`)
 | `wifi` | Enum | Optional | Indicates whether the vehicle features Wi-Fi.<br><br>Valid options are:<br>`0` or empty - No information about Wi-Fi is available.<br>`1` - The vehicle features Wi-Fi.<br>`2` - The vehicle does not feature Wi-Fi.  |
 | `power_sockets` | Enum | Optional | Indicates whether the vehicle features power sockets.<br><br>Valid options are:<br>`0` or empty - No information about power sockets is available.<br>`1` - The vehicle features power sockets.<br>`2` - The vehicle does not feature power sockets. |
 | `pets_allowed` | Enum | Optional | Indicates whether pets may be transported on this trip.<br><br>Valid options are:<br>`0` or empty - No information about transporting pets is available.<br>`1` - Pets may be transported on this trip.<br>`2` - Pets may not be transported on this trip. |
+| `food_available` | Enum | Optional | Indicates whether food can be bought during this trip.<br><br>Valid options are:<br>`0` or empty - No information about the availability of food<br>`1` - Snacks are available.<br>`2` - A restaurant is available.<br>`3` - No food is available. |
+
 
 
 #### Calculating on-demand trip time estimates with safe duration fields
